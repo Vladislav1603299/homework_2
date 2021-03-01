@@ -1,0 +1,428 @@
+:root {
+    --dark-blue: #222222;
+    --pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --brown: #474040;
+}
+
+body {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 10px 0 0;
+}
+
+.header__person-link {
+    margin: 0 34px 0 0;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__title-wrapper {
+    padding: 0 0 0 91px;
+    flex-grow: 1;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+}
+
+.brand__subtitle {
+    display: block;
+
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__item {
+    color: white;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__item--woman {
+    background-image: url(img/Group\ 35.jpg);
+}
+
+.offers__item--man {
+    background-image: url(img/Group\ 37.jpg);
+}
+
+.offers__item--kds{
+    background-image: url(img/Group\ 38.jpg);
+}
+
+.offers__item--accesories {
+    background-image: url(img/Group\ 36.jpg);
+    width: 100%;
+    margin: 0;
+}
+
+.container_text{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.container_women{
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--dark-pink)
+}
+
+.products{
+    margin-top: 97px;
+}
+
+.products_featured{
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.products_shop{
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-top: 6px;
+}
+
+.product_name{
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+
+.product_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    max-width: 324px;
+    padding-top: 13px;
+    padding-left: 18px;
+}
+
+.product_price{
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+
+.products_photo{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 18px;
+    
+}
+
+.products_background{
+    background: #F8F8F8;
+    margin-top: 30px;
+}
+
+.button_text{
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+
+.advantages_button{
+    min-width: 211px;
+    min-height: 47px;
+    border: 1px solid #FF6A6A;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 49px;
+
+}
+
+.footer_information{
+    background: #222224;
+    margin-top: 96px;
+}
+
+.footer_offers1{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.footer_offers2{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer_offers3{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.offers_text1{
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    max-width: 360px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.offers_text2{
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    max-width: 360px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.offers_text3{
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    max-width: 360px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.footer_offers_logo{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.footer_logo1{
+    margin-left: 158px;
+    margin-top: 104px;
+}
+
+.footer_logo2{
+    margin-left: 158px;
+    margin-top: 104px;
+}
+
+.footer_logo3{
+    margin-left: 158px;
+    margin-top: 104px;
+}
+
+.free_delivery{
+    margin-right: 30px;
+}
+
+.sales_discounts{
+
+}
+
+.quality_assurance{
+    margin-left: 30px;
+}
+
+.footer_offers--text{
+    padding-bottom: 104px;
+}
+
+.footer_contacts{
+    background-image: url(img/photo\ subscribe.jpg);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+    
+}
+
+.contact_photo{
+    padding-right: 100px;
+    padding-top: 97px;
+    background: transparent;
+
+}
+
+.contact_text--me{
+    padding-top: 30px;
+    max-width: 300px;
+    text-align: center;
+    overflow: hidden;
+    background: transparent;
+    padding-bottom: 171px;
+    
+    
+}
+
+.footer_foto{
+    padding-left: 105px;
+}
+
+.footer_subscribe{
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.footer_newletter{
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+.footre_email{
+    margin-top: 150px;
+    
+}
+
+.button_input{
+    
+    
+}
+
+.input_email{
+    margin: 0;
+    background: #E1E1E1;
+    width: 256px;
+    height: 50px;
+    border-radius: 50px 0 0 50px;
+}
+
+.submit_email{
+    background: #F16D7F;
+    width: 100px;
+    height: 56px;
+    margin: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+.footer_network{
+    background: #222224;
+    min-height: 79px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rights_reserved{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.footer_networks{
+margin-left: 450px;
+}
+
+
+
+
+
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
