@@ -44,23 +44,25 @@ body {
     display: none;
 }
 
-.header__button {
-    background-color: transparent;
-    border: none;
-    margin: 0 34px 0 0;
-}
+
 
 .header__logo {
     margin: 0 10px 0 0;
 }
 
 .header__person-link {
-    margin: 0 34px 0 0;
+    margin: 0 35px 0 0;
+    
 }
 
 .brand {
     display: flex;
     margin: 0 0 63px;
+    
+}
+
+.fdhdg{
+    margin-top: 20px;
 }
 
 .brand__title {
@@ -407,12 +409,379 @@ body {
 
 .footer_networks{
 margin-left: 450px;
+display: flex;
+
 }
 
 
 
 
 
+
+
+.registration_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.registration_page_name{
+    background: #F8F3F4;
+    min-height: 148px;
+}
+
+.registration_field{
+    padding-left: 135px;
+}
+
+.registration_name{
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding: 59px 0 60px 230px;
+}
+
+.registration_field--name{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 64px;
+}
+
+.registration_field--details{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 33px;
+}
+
+
+.registration_paragtaph{
+    display: flex;
+    padding-top: 21px;
+}
+
+.paragtaph_text{
+    padding-left: 22px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.field{
+    border: 1px solid #A4A4A4;
+    min-width: 360px;
+    min-height: 44px;
+    
+}
+
+.male{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.female{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.male_field{
+    display: flex;
+    padding-top: 32px;
+}
+
+.registration_text{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    max-width: 360px;
+    padding-top: 16px;
+    
+}
+
+.registration_field--button{
+    padding-top: 39px;
+    padding-bottom: 96px;
+    
+    ;
+}
+
+.field_button{
+    border: 1px solid #FF6A6A;
+    background-color: white;
+    font-size: 14px;
+    line-height: 17px;
+    width: 167px;
+    height: 50px;
+    
+    
+} 
+
+.field_button--join{
+    color:#FF6A6A ;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.registration_stocks--header{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 64px;
+}
+
+   
+.registration_stocks--text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    max-width: 652px;
+    padding-top: 22px;
+}
+
+
+.registration_field--block{
+    padding-top: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.submit_email:hover{
+    background-color: #6d7af1;
+    color: #F1E4E6;
+
+}
+
+button:hover{
+    box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
+   
+}
+
+.advantages_button:hover{
+    background-color: #F16D7F;
+    box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
+}
+
+.advantages_button:hover .button_text{
+    color: lavender;
+}
+
+.field_button:hover{
+    background-color: #F16D7F;
+    box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
+    color: white;
+    border-color: #F16D7F;
+}
+
+.field:hover{
+    border-color: red;
+}
+
+.field_button--join:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+.password {
+	position: relative;
+    padding-top: 21px;
+}
+.password-control {
+	position: absolute;
+	top: 35px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(img/eye-off-2-svgrepo-com.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(img/eye-svgrepo-com.svg) 0 0 no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+.brand_poto--text {
+    position: relative;
+    
+}
+
+
+
+.header_burger {
+    background-color: #222222;
+    background-color: transparent;
+    margin: 0 35px 0 0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-image: url(img/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 58px;
+    width: 60px;
+    
+     
+    
+    
+}
+
+
+.header_burger:hover, .dropbtn:focus {
+    background-color: #222222;
+}
+
+
+
+
+
+.header-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 5px;
+}
+
+
+.header-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.header-content a:hover {background-color: #ddd}
+
+
+.show {display:block;}
+  
+
+.header_menu{
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 37px;
+    padding-left: 34px;
+}
+
+.header_people{
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-top: 24px;
+    padding-left: 33px;
+}
+
+.header_clothes{
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-left: 40px;
+}
+
+
+.footer_logo-pin1{
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+    background-image: url(img/facebook-svgrepo-com.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer_logo-pin2{
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+    background-image: url(img/instagram-svgrepo-com.svg);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer_logo-pin3{
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+    background-image: url(img/iconfinder_33-pinterest_104469.svg);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer_logo-pin4{
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+    background-image: url(img/twitter-svgrepo-com.svg);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer_logo-pin1:hover{
+    background-color: var(--dark-pink);
+}
+
+.footer_logo-pin2:hover{
+    background-color: var(--dark-pink);
+}
+
+.footer_logo-pin3:hover{
+    background-color: var(--dark-pink);
+}
+
+.footer_logo-pin4:hover{
+    background-color: var(--dark-pink);
+    
+}
 
 © 2021 GitHub, Inc.
 Terms
