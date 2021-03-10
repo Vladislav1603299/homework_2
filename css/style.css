@@ -110,19 +110,19 @@ body {
 }
 
 .offers__item--woman {
-    background-image: url(img/Group\ 35.jpg);
+    background-image: url(../img/Group\ 35.jpg);
 }
 
 .offers__item--man {
-    background-image: url(img/Group\ 37.jpg);
+    background-image: url(../img/Group\ 37.jpg);
 }
 
 .offers__item--kds{
-    background-image: url(img/Group\ 38.jpg);
+    background-image: url(../img/Group\ 38.jpg);
 }
 
 .offers__item--accesories {
-    background-image: url(img/Group\ 36.jpg);
+    background-image: url(../img/Group\ 36.jpg);
     width: 100%;
     margin: 0;
 }
@@ -309,9 +309,7 @@ body {
     margin-right: 30px;
 }
 
-.sales_discounts{
 
-}
 
 .quality_assurance{
     margin-left: 30px;
@@ -322,7 +320,7 @@ body {
 }
 
 .footer_contacts{
-    background-image: url(img/photo\ subscribe.jpg);
+    background-image: url(../img/photo\ subscribe.jpg);
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -372,10 +370,7 @@ body {
     
 }
 
-.button_input{
-    
-    
-}
+
 
 .input_email{
     margin: 0;
@@ -618,10 +613,10 @@ button:hover{
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background: url(img/eye-off-2-svgrepo-com.svg) 0 0 no-repeat;
+	background: url(../img/eye-off-2-svgrepo-com.svg) 0 0 no-repeat;
 }
 .password-control.view {
-	background: url(img/eye-svgrepo-com.svg) 0 0 no-repeat;
+	background: url(../img/eye-svgrepo-com.svg) 0 0 no-repeat;
 }
 
 
@@ -649,7 +644,7 @@ button:hover{
     font-size: 16px;
     border: none;
     cursor: pointer;
-    background-image: url(img/menu.svg);
+    background-image: url(../img/menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     height: 58px;
@@ -723,7 +718,7 @@ button:hover{
     height: 32px;
     width: 32px;
     margin-left: 5px;
-    background-image: url(img/facebook-svgrepo-com.svg);
+    background-image: url(../img/facebook-svgrepo-com.svg);
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: center;
@@ -735,7 +730,7 @@ button:hover{
     height: 32px;
     width: 32px;
     margin-left: 5px;
-    background-image: url(img/instagram-svgrepo-com.svg);
+    background-image: url(../img/instagram-svgrepo-com.svg);
     background-size: 22px;
     background-repeat: no-repeat;
     background-position: center;
@@ -747,7 +742,7 @@ button:hover{
     height: 32px;
     width: 32px;
     margin-left: 5px;
-    background-image: url(img/iconfinder_33-pinterest_104469.svg);
+    background-image: url(../img/iconfinder_33-pinterest_104469.svg);
     background-size: 22px;
     background-repeat: no-repeat;
     background-position: center;
@@ -759,7 +754,7 @@ button:hover{
     height: 32px;
     width: 32px;
     margin-left: 5px;
-    background-image: url(img/twitter-svgrepo-com.svg);
+    background-image: url(../img/twitter-svgrepo-com.svg);
     background-size: 22px;
     background-repeat: no-repeat;
     background-position: center;
@@ -783,15 +778,3 @@ button:hover{
     
 }
 
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
