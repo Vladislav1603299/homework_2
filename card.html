@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="function.html">
     <script src="js/function.js"></script>
     <title>Document</title>
 </head>
 
 <body>
+
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -32,8 +32,6 @@
                 </div>
             </div>
         </div>
-
-
         <nav id="myDropdown" class="header-content">
             <h2 class="header_menu">MENU</h2>
             <ul>
@@ -70,88 +68,70 @@
             </ul>
         </nav>
     </header>
-    <main class="registration">
-
-        <section class="registration_page_name">
-            <p class="registration_name">REGISTRATION</p>
-        </section>
-        <section class="registration_content">
-            <section class="registration_field">
-                <form action="">
-                    <p class="registration_field--name">Your Name</p>
-                    <div class="registration_field--block">
-                        <input class="field" type="text" placeholder="First Name" required><br>
-                    </div>
-                    <div class="registration_field--block">
-                        <input class="field" type="text" placeholder="Last Name" required><br>
-                    </div>
-                    <div class="male_field">
-                        <div>
-                            <input id="male" type="radio" name="pol" required>
-                            <label class="male" for="male">Male</label>
-                        </div>
-                        <div>
-                            <input id="female" type="radio" name="pol" required>
-                            <label class="female" for="female">Female</label>
-                        </div>
-                    </div>
-
-                    <p class="registration_field--details">Login details</p>
-                    <div class="registration_field--block">
-                        <input class="field" type="email" placeholder="Email" required><br>
-                    </div>
-                    <div class="password">
-                        <input class="field" type="password" id="password-input" placeholder="Password" name="password"
-                            required>
-                        <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
-                    </div>
+    <section class="registration_page_name">
+        <p class="registration_name">SHOPPING CART</p>
+    </section>
 
 
-
-                    <p class="registration_text">Please use 8 or more characters, with at least 1 number and a mixture
-                        of uppercase and lowercase
-                        letters</p>
-                    <div class="registration_field--button">
-                        <button class="field_button">
-                            <p class="field_button--join">JOIN NOW</p>
-                        </button>
-                    </div>
-
-
-                </form>
-            </section>
-
-            <section class="registration_stocks">
-                <p class="registration_stocks--header">LOYALTY HAS ITS PERKS</p>
-                <p class="registration_stocks--text">Get in on the loyalty program where you can earn points and unlock
-                    serious perks. Starting with these
-                    as
-                    soon as you join:</p>
-                <div class="registration_paragtaph">
-                    <img src="img/Vector.svg" alt="tick">
-                    <p class="paragtaph_text">15% off welcome offer</p>
-                </div>
-                <div class="registration_paragtaph">
-                    <img src="img/Vector.svg" alt="tick">
-                    <p class="paragtaph_text">Free shipping, returns and exchanges on all orders</p>
-                </div>
-                <div class="registration_paragtaph">
-                    <img src="img/Vector.svg" alt="tick">
-                    <p class="paragtaph_text">$10 off a purchase on your birthday</p>
-                </div>
-                <div class="registration_paragtaph">
-                    <img src="img/Vector.svg" alt="tick">
-                    <p class="paragtaph_text">Early access to products</p>
-                </div>
-                <div class="registration_paragtaph">
-                    <img src="img/Vector.svg" alt="tick">
-                    <p class="paragtaph_text">Exclusive offers & rewards</p>
-                </div>
-
-            </section>
+    <section class="cards">
+        <div class="cards_1">
+            <p class="cards_cards_1--header">MANGO PEOPLE T-SHIRT</p>
+            <p class="cards_cards_1--price">Price: $300</p>
+            <p class="cards_cards_1--color">Color: Red</p>
+            <p class="cards_cards_1--size">Size: Xl</p>
+            <p class="cards_cards_1--quantity">Quantity: </p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+            </div>
+        </div>
+        <div class="cards_1">
+            <p class="cards_cards_1--header">MANGO PEOPLE T-SHIRT</p>
+            <p class="cards_cards_1--price">Price: $300</p>
+            <p class="cards_cards_1--color">Color: Red</p>
+            <p class="cards_cards_1--size">Size: Xl</p>
+            <p class="cards_cards_1--quantity">Quantity: </p>
+            <div class="input-group quantity_goods">
+                <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+            </div>
+        </div>
+        <section class="field">
+            <button class="field_button">
+                <p class="field_button--join">CLEAR SHOPPING CART</p>
+            </button>
+            <button class="field_button">
+                <p class="field_button--join">CONTINUE SHOPPING</p>
+            </button>
         </section>
 
-    </main>
+        <section class="adressshop">
+            <p class="adressshop_header">SHIPPING ADRESS</p>
+            <div class="adressshop_country">
+                <input class="field" type="text" placeholder="Bangladesh" required><br>
+            </div>
+            <div class="adressshop_state">
+                <input class="field" type="text" placeholder="State" required><br>
+            </div>
+            <div class="adressshop_index">
+                <input class="field" type="text" placeholder="Postcode / Zip" required><br>
+            </div>
+
+            <section class="priceend">
+                <div class="priceend_block">
+                    <p class="priceend_price">SUB TOTAL $900</p>
+                    <p class="priceend_price2">GRAND TOTAL $900</p>
+                    <button class="priceend_button">
+                        <p class="priceend_button--proceed">PROCEED TO CHECKOUT</p>
+                    </button>
+                </div>
+            </section>
+
+        </section>
+
+    </section>
+
+
+
+
 
 
 
@@ -199,4 +179,21 @@
             </div>
         </section>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>

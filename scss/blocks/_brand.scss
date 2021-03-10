@@ -1,0 +1,35 @@
+.brand {
+    display: flex;
+    margin: 0 0 63px;
+    
+}
+
+.brand{
+
+&__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+&__title-wrapper {
+    padding: 0 0 0 91px;
+    flex-grow: 1;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+}
+
+&__subtitle {
+    display: block;
+
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+&__subtitle-pink {
+    color: var(--dark-pink);
+}
+}

@@ -1,0 +1,39 @@
+
+.offers{
+
+
+&__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+&__item {
+    color: white;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+&__item--woman {
+    background-image: url(../img/Group\ 35.jpg);
+}
+
+&__item--man {
+    background-image: url(../img/Group\ 37.jpg);
+}
+
+&__item--kds{
+    background-image: url(../img/Group\ 38.jpg);
+}
+
+&__item--accesories {
+    background-image: url(../img/Group\ 36.jpg);
+    width: 100%;
+    margin: 0;
+}
+}
