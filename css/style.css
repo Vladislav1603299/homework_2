@@ -92,6 +92,12 @@ body {
     color: var(--dark-pink);
 }
 
+.brand_foto{
+    width: 800px;
+    height: 765px; 
+    
+}
+
 .offers__list {
     display: flex;
     flex-wrap: wrap;
@@ -324,6 +330,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    
     
     
 }
@@ -776,5 +783,440 @@ button:hover{
 .footer_logo-pin4:hover{
     background-color: var(--dark-pink);
     
+}
+
+
+
+@media(max-width: 1024px){
+
+    .header{
+        margin: 0 auto;
+        
+    }
+
+    .container{
+        width: 100%;
+        
+
+    }
+
+    .header__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 75px;
+    }
+
+    .brand_foto{
+    width: 50%;
+    height: 50%;
+    }
+
+    .brand__title-wrapper{
+        width: 50%;
+        
+        padding: 0;
+        padding-left: 69px;
+    }
+
+    .brand__title{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+
+
+    .brand__subtitle{
+        display: block;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 44px;
+    }
+
+
+    .offers__item {
+        color: white;
+        width: 28%;
+        min-height: 168px;
+        background-color: var(--brown);
+        margin: 0 0 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offers__item--woman{
+        background-image: url(../img/Group\ 35.jpg);
+        background-size: 100%;
+        
+    }
+
+    .offers__item--man {
+        background-image: url(../img/Group\ 37.jpg);
+        background-size: 100%;
+    }
+    
+    .offers__item--kds{
+        background-image: url(../img/Group\ 38.jpg);
+        background-size: 100%;
+    }
+    
+    .offers__item--accesories {
+        background-image: url(../img/Group\ 36.jpg);
+        background-size: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .offers__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .container_text{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+    
+    }
+    
+    .container_women{
+        font-size: 25px;
+        line-height: 22px;
+        text-align: center;
+        color: var(--dark-pink)
+    }
+
+    .products{
+        margin-top: 155px;
+    }
+
+    .products_background{
+        background: #F8F8F8;
+        margin-top: 30px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .products_button{
+        width: 95%
+    }
+
+    .products_photo{
+        width: 100%;
+    }
+
+    .product_text{
+       
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+    .footer_offers_logo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 ;
+        padding: 0;
+    }
+
+    .footer_logo1{
+        margin: 0;
+    }
+    
+    .footer_logo2{
+        margin: 0;
+    }
+
+    .footer_logo3{
+        margin: 0;
+    }
+
+    .free_delivery{
+        margin: 0;
+        margin-top: 48px;
+    }
+
+    .quality_assurance{
+        margin: 0;
+        margin-top: 48px;
+    }
+
+    .sales_discounts{
+        margin: 0;
+        margin-top: 48px;
+    }
+
+    .offers_text1{
+        
+        margin: 0 auto;
+    }
+
+    .offers_text2{
+        
+        margin: 0 auto;
+    }
+
+    .offers_text3{
+        
+        margin: 0 auto;
+    }
+
+    .footer_contacts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_foto{
+        width: 10%;
+    }
+
+    .footer_contacts{
+        background-image: url(../img/photo\ subscribe.jpg);
+        
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+
+    }
+
+    .footre_email{
+        margin: 0;
+        margin-top: 48px;
+        
+    }
+
+
+    .contact_text--me{
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .contact_photo{
+        align-items: center;
+        padding: 0;
+        padding-right: 100px;
+        padding-top: 64px;
+        
+    }
+
+    .contact_text--me{
+        margin: 0 auto;
+    }
+
+    
+
+    .footer_button{
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+
+    
+
+
+    .footer_network{
+        height: 100%;
+        
+        
+    
+    }
+
+    
+
+    .footre_email{
+        margin: 0;
+        
+    }
+
+    .footer_subscribe{
+        margin-top: 48px;
+    }
+
+
+    .input_email{
+        padding-bottom: 0;
+        background: #E1E1E1;
+        width: 256px;
+        height: 50px;
+        border-radius: 50px 0 0 50px;
+        
+    }
+    
+    .submit_email{
+        background: #F16D7F;
+        width: 100px;
+        height: 56px;
+        margin: 0;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .rights_reserved{
+        margin-left: 32px;
+    }
+
+    .footer_networks{
+        margin-right: 32px;
+        
+        
+    
+    }
+
+    .header__contorls{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+
+    
+}
+
+
+
+@media(max-width: 670px){
+
+    .header{
+        margin: 0 auto;
+        
+    }
+
+    .container{
+        width: 100%;
+        
+
+    }
+
+    .header__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 75px;
+    }
+
+    .brand_foto{
+    display: none;
+    }
+
+    .header__person-link{
+        display: none; 
+    }
+
+    .header__person-link1{
+        display: none;
+    }
+
+    .brand{
+        min-height: 375px;
+    }
+
+    .brand__title-wrapper{
+        padding: 0;
+        justify-content: center;
+    }
+
+    .header__contorls{
+        padding-left: 16px;
+    }
+
+
+    .offers__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .offers__item {
+        color: white;
+        width: 360px;
+        min-height: 260px;
+        background-color: var(--brown);
+        margin: 0 0 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .offers__item--woman {
+        background-image: url(../img/Group\ 35.jpg);
+        background-size: 100%;
+       
+        
+    }
+    
+    .offers__item--man {
+        background-image: url(../img/Group\ 37.jpg);
+    }
+    
+    .offers__item--kds{
+        background-image: url(../img/Group\ 38.jpg);
+    }
+    
+    .offers__item--accesories {
+        background-image: url(../img/Group\ 36.jpg);
+        width: 94%;
+        margin: 0;
+    }
+
+
+    .products_photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+
+    .products_background{
+        width: 100%;
+    }
+
+    .footer_foto{
+        width: 20%;
+    }
+
+    .footer_network{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .rights_reserved{
+        
+    }
+
+    .footer_networks{
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        
+    }
+
+
+    .footer_button{
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
+
 }
 
