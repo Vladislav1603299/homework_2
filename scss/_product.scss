@@ -2,7 +2,6 @@
     margin-top: 97px;
 }
 
-
 .products{
 
 &_featured{
@@ -19,6 +18,27 @@
     color: #9F9F9F;
     margin-top: 6px;
 }
+
+&_photo{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 18px;
+    
+}
+
+&_background{
+    background: #F8F8F8;
+    margin-top: 30px;
+}
+
+}
+
+
+.product{
+
 
 &_name{
     font-size: 13px;
@@ -47,18 +67,28 @@
     padding-bottom: 20px;
 }
 
-&_photo{
-    max-width: 1140px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: space-between;
-    margin-top: 18px;
-    
 }
 
-&_background{
-    background: #F8F8F8;
-    margin-top: 30px;
+
+
+.button_text{
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
 }
+
+.advantages_button{
+    min-width: 211px;
+    min-height: 47px;
+    border: 1px solid #FF6A6A;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 49px;
+
 }
+
+

@@ -4,7 +4,11 @@
     
 }
 
-.brand{
+.fdhdg{
+    margin-top: 20px;
+}
+
+.brand {
 
 &__title {
     font-size: 48px;
@@ -31,5 +35,11 @@
 
 &__subtitle-pink {
     color: var(--dark-pink);
+}
+
+&_foto{
+    width: 800px;
+    height: 765px; 
+    
 }
 }
