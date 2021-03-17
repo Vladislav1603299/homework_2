@@ -1,0 +1,226 @@
+.footer{
+
+
+&_information{
+    background: #222224;
+    margin-top: 96px;
+}
+
+&_offers1{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 28px;
+}
+
+&_offers2{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 20px;
+}
+
+&_offers3{
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 25px;
+}
+
+&_offers_logo{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+&_logo1{
+    margin-left: 158px;
+    margin-top: 104px;
+}
+
+&_logo2{
+    margin-left: 158px;
+    margin-top: 104px;
+}
+
+&_logo3{
+    margin-left: 158px;
+    margin-top: 104px;
+}
+
+&_offers--text{
+    padding-bottom: 104px;
+}
+
+&_contacts{
+    background-image: url(../img/subscribe.jpg);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+&_foto{
+    padding-left: 105px;
+}
+
+&_subscribe{
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+&_newletter{
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+&_email{
+    margin-top: 150px;
+    
+}
+
+&_networks{
+    margin-left: 450px;
+    display: flex;
+    
+    }
+    
+    
+    &_logo-pin1{
+        background-color: white;
+        height: 32px;
+        width: 32px;
+        margin-left: 5px;
+        background-image: url(../img/facebook-svgrepo-com.svg);
+        background-size: 18px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    &_logo-pin2{
+        background-color: white;
+        height: 32px;
+        width: 32px;
+        margin-left: 5px;
+        background-image: url(../img/instagram-svgrepo-com.svg);
+        background-size: 22px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    &_logo-pin3{
+        background-color: white;
+        height: 32px;
+        width: 32px;
+        margin-left: 5px;
+        background-image: url(../img/iconfinder_33-pinterest_104469.svg);
+        background-size: 22px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    &_logo-pin4{
+        background-color: white;
+        height: 32px;
+        width: 32px;
+        margin-left: 5px;
+        background-image: url(../img/twitter-svgrepo-com.svg);
+        background-size: 22px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    &_logo-pin1:hover{
+        background-color: var(--dark-pink);
+    }
+    
+    &_logo-pin2:hover{
+        background-color: var(--dark-pink);
+    }
+    
+    &_logo-pin3:hover{
+        background-color: var(--dark-pink);
+    }
+    
+    &_logo-pin4:hover{
+        background-color: var(--dark-pink);
+        
+    }
+
+    &_network{
+        background: #222224;
+        min-height: 79px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    &_button{
+        display: flex;
+            }
+
+    
+
+}
+
+
+.contact_photo{
+    padding-right: 100px;
+    padding-top: 97px;
+    background: transparent;
+
+}
+
+.contact_text--me{
+    padding-top: 30px;
+    max-width: 300px;
+    text-align: center;
+    overflow: hidden;
+    background: transparent;
+    padding-bottom: 171px;
+    
+    
+}
+
+
+
+
+
+.input_email{
+    margin: 0;
+    background: #E1E1E1;
+    width: 256px;
+    height: 50px;
+    border-radius: 50px 0 0 50px;
+}
+
+.submit_email{
+    background: #F16D7F;
+    width: 100px;
+    height: 56px;
+    margin: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+
+
+.rights_reserved{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
