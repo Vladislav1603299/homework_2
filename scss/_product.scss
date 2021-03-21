@@ -32,6 +32,7 @@
 &_background{
     background: #F8F8F8;
     margin-top: 30px;
+    position: relative;
 }
 
 }
@@ -90,5 +91,39 @@
     margin-top: 49px;
 
 }
+
+.product-wrapper-overlay{
+    position: absolute;
+    width: 100%;
+    min-height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 1px;
+    height: 73%;
+    display: none;
+}
+
+.products_add{
+    background-image: url(../img/telega.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px ;
+    padding-left: 35px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 2px solid white;
+    width: 138px;
+    height: 43px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    display: none;
+}
+
+
 
 

@@ -1,7 +1,19 @@
 button:hover{
     box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
-   
 }
+
+button:hover .product-wrapper-overlay,
+button:hover .products_add{
+display: block;
+
+}
+
+
+
+
+
+
+
 
 .advantages_button:hover{
     background-color: #F16D7F;
@@ -32,3 +44,67 @@ button:hover{
     color: #F1E4E6;
 
 }
+
+.adressshop_field:hover{
+    border-color: red;
+}
+
+.card_button1:hover{
+    background-color: #F16D7F;
+    border-radius:15px;
+}
+
+.card_button2:hover{
+    background-color: #F16D7F;
+    border-radius:15px;
+    color: white;
+}
+
+
+.card_button2:hover{
+
+    .card_button--join{
+    color: white;
+}
+}
+
+.card_button1:hover{
+
+    .card_button--join{
+    color: white;
+}
+}
+
+
+.adressshop_buttom:hover{
+    background-color: #F16D7F;
+}
+
+.adressshop_buttom:hover{
+
+    .adressshop_buttom-get{
+        color: white;
+    }
+}
+
+.priceend_button:hover{
+    background-color: #F16D7F ;
+    border-radius:15px;
+}
+
+.priceend_button:hover{
+    .priceend_button--proceed{
+    color: white;
+    }
+}
+
+
+.cards_1:hover{
+    box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
+}
+
+.cards_2:hover{
+    box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
+}
+
+
