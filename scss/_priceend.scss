@@ -1,0 +1,92 @@
+.priceend{
+    background: #F5F3F3;
+    margin-top: 58px;
+    max-width: 360px;
+}
+
+.priceend_sub{
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    padding-top: 39px;
+    padding-left: 218px;
+}
+
+.priceend_price1{
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    padding-left: 20px;
+}
+
+.priceend_grand{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 12px;
+    padding-left: 153px;
+}
+
+.priceend_price2{
+    color: #F16D7F;
+    padding-left: 20px;
+}
+
+.band{
+    background: #E2E2E2;
+    border: 1px;
+    height: 1px;
+    width: 273px;
+    margin-top: 21px;
+    margin-left: 44px;
+}
+
+.priceend_button{
+    width: 273px;
+    height: 50px;
+    background-color: white;
+    margin-top: 17px;
+    margin-left: 44px;
+    margin-bottom: 44px;
+}
+
+.priceend_button--proceed{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+
+@media(max-width: 1024px){
+    .priceend{
+        margin: 0;
+        margin-right: 17px;
+        margin-left: 10px;
+        margin-top: 105px;
+    }
+
+
+    .priceend_button{
+        margin-right: 44px;
+    }
+
+
+}
+
+    @media(max-width: 670px){
+
+        .priceend{
+            margin: 0;
+            margin-bottom: 96px;
+        }
+
+
+
+
+
+
+
+
+}

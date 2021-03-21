@@ -1,0 +1,107 @@
+.adressshop{
+    padding-top: 113px;
+    padding-left: 129px;
+}
+
+
+.adressshop_header{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+
+}
+
+.adressshop_country{
+    padding-top: 21px;
+    
+}
+
+.adressshop_field{
+    width: 352px;
+    height: 44px;
+}
+
+.adressshop_state{
+    padding-top: 21px;
+}
+
+.adressshop_index{
+    padding-top: 21px;
+}
+
+.adressshop_buttom-get{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.adressshop_buttom{
+   width: 101px;
+   height: 44px;
+   background-color: white;
+   margin-top: 25px;
+}
+
+@media(max-width: 1024px){
+    .adressshop{
+        display: flex;
+        margin-left: 30px;
+        
+        padding: 0;
+        margin: 0 auto;
+        
+    }
+    
+    .adressshop_city{
+        padding-top: 67px;
+    }
+
+    .adressshop_buttom{
+        margin-bottom: 130px;
+    }
+
+
+
+    @media(max-width: 670px){
+
+        .adressshop{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .adressshop_buttom{
+            margin: 0;
+            margin-top: 24px;
+            margin-bottom: 49px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}

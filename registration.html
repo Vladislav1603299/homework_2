@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="function.html">
@@ -26,12 +26,18 @@
                 <div class="header__contorls">
                     <button onclick="myFunction()" class="header_burger">
                     </button>
-                    <a class="header__person-link" href="registration.html"><img src="img/contact.svg" alt="loupe"
-                            width="26" height="27"></a>
-                    <a href="#"><img src="img/basket.svg" alt="loupe" width="26" height="27"></a>
+                    <a class="header__person-link" href="registration.html"><img class="fdhdg" src="img/contact.svg"
+                            alt="loupe" width="26" height="27"></a>
+                    <a href="card.html"><img class="header__person-link1" src="img/basket.svg" alt="loupe" width="26"
+                            height="27"></a>
                 </div>
             </div>
         </div>
+
+
+
+
+
 
 
         <nav id="myDropdown" class="header-content">
@@ -170,7 +176,7 @@
 
 
     <footer>
-        <section class=" footer_contacts">
+        <section class="footer_contacts">
             <div>
                 <div class="footer_contacts contact_photo">
                     <img class="footer_foto" src="img/Intersect.png" alt="photo">
@@ -180,17 +186,19 @@
                         pulvinar purus condimentum“</p>
                 </div>
             </div>
-            <div class="footre_email">
+            <div class="footer_email">
                 <h2 class="footer_subscribe">SUBSCRIBE</h2>
                 <p class="footer_newletter">FOR OUR NEWLETTER AND PROMOTION</p>
-                <form action="#">
-                    <input class="footre_email input_email" type="email" placeholder="Enter Your Email">
-                    <button class="footre_email submit_email" type="submit">Subscribe</button>
+                <form class="footer_button" action="#">
+                    <input class="footer_email input_email" type="email" placeholder="Enter Your Email">
+                    <button class="footer_email submit_email" type="submit">Subscribe</button>
                 </form>
             </div>
         </section>
         <section class="footer_network">
-            <p class="footer_network rights_reserved">© 2021 Brand All Rights Reserved.</p>
+            <div>
+                <p class="footer_network rights_reserved">© 2021 Brand All Rights Reserved.</p>
+            </div>
             <div class="footer_networks">
                 <a href="#" class="footer_logo-pin1"></a>
                 <a href="#" class="footer_logo-pin2"></a>

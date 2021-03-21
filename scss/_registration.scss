@@ -1,0 +1,270 @@
+.registration{
+
+
+
+&_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+&_page_name{
+    background: #F8F3F4;
+    min-height: 148px;
+}
+
+&_field{
+    padding-left: 135px;
+}
+
+&_name{
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding: 59px 0 60px 230px;
+}
+
+&_field--name{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 64px;
+}
+
+&_field--details{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 33px;
+}
+
+
+&_paragtaph{
+    display: flex;
+    padding-top: 21px;
+}
+
+&_text{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    max-width: 360px;
+    padding-top: 16px;
+    
+}
+
+&_field--button{
+    padding-top: 39px;
+    padding-bottom: 96px;
+    
+    
+}
+
+&_stocks--header{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 64px;
+}
+
+   
+&_stocks--text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    max-width: 652px;
+    padding-top: 22px;
+}
+
+
+&_field--block{
+    padding-top: 21px;
+}
+
+}
+
+.field{
+    border: 1px solid #A4A4A4;
+    min-width: 360px;
+    min-height: 44px;
+    
+}
+
+.male{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.female{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.male_field{
+    display: flex;
+    padding-top: 32px;
+}
+
+.field_button{
+    border: 1px solid #FF6A6A;
+    background-color: white;
+    font-size: 14px;
+    line-height: 17px;
+    width: 167px;
+    height: 50px;
+    
+    
+} 
+
+.field_button--join{
+    color:#FF6A6A ;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+
+.password {
+	position: relative;
+    padding-top: 21px;
+}
+.password-control {
+	position: absolute;
+	top: 35px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/eye-off-2-svgrepo-com.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(../img/eye-svgrepo-com.svg) 0 0 no-repeat;
+}
+
+
+@media(max-width: 1024px){
+
+    .registration{
+
+        &_name{
+            font-size: 24px;
+            line-height: 29px;
+            color: #F16D7F;
+            padding: 59px 558px 60px 16px;
+        }
+    
+        &_content{
+            display: flex;
+            
+        }
+        &_field{
+            padding: 17px;
+            flex-grow: 1;
+        }
+    
+        &_stocks{
+            padding: 23px;
+            flex-grow: 1;
+        }
+    
+        &_stocks--text{
+            max-width: 670px;
+        }
+    
+    
+    }
+
+
+    
+}
+
+
+@media(max-width: 670px){
+
+    .registration{
+
+        &_name{
+            font-size: 24px;
+            line-height: 29px;
+            color: #F16D7F;
+            padding: 0;
+            text-align: center;
+            padding-top: 60px;
+        }
+    
+        &_content{
+            display: flex;
+            
+        }
+        
+    
+        &_stocks{
+            margin: 0;
+            padding: 0 9px 100px 9px;
+        }
+    
+        &_stocks--text{
+            max-width: 670px;
+        }
+
+        &_content{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_field--button{
+            padding: 0;
+            padding-top: 39px;
+              
+        }
+
+        &_stocks--header{
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+            padding: 0;
+            padding-top: 40px;
+        }
+        
+        &_field{
+            padding-left: 9px;
+           padding-right: 30px;
+            
+        }
+
+
+    }
+
+        .field{
+            
+            border: 1px solid #A4A4A4;
+            min-width: 340px;
+            min-height: 44px;
+        }
+
+        .male{
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 13px;
+            color: #000000;
+        }
+
+        .footer_button{
+            margin: 0;
+            margin-bottom: 30px;
+            
+        }
+
+
+        
+}
