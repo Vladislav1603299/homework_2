@@ -2,29 +2,29 @@
 
 
 
-&_content{
+&-content{
     display: flex;
     justify-content: space-around;
 }
 
 
-&_page_name{
+&-page-name{
     background: #F8F3F4;
     min-height: 148px;
 }
 
-&_field{
+&-field{
     padding-left: 135px;
 }
 
-&_name{
+&-name{
     font-size: 24px;
     line-height: 29px;
     color: #F16D7F;
     padding: 59px 0 60px 230px;
 }
 
-&_field--name{
+&-field-name{
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -32,7 +32,7 @@
     padding-top: 64px;
 }
 
-&_field--details{
+&-field-details{
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -41,12 +41,12 @@
 }
 
 
-&_paragtaph{
+&-paragtaph{
     display: flex;
     padding-top: 21px;
 }
 
-&_text{
+&-text{
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
@@ -56,14 +56,14 @@
     
 }
 
-&_field--button{
+&-field-button{
     padding-top: 39px;
     padding-bottom: 96px;
     
     
 }
 
-&_stocks--header{
+&-stocks-header{
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
@@ -72,7 +72,7 @@
 }
 
    
-&_stocks--text{
+&-stocks-text{
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
@@ -82,7 +82,7 @@
 }
 
 
-&_field--block{
+&-field-block{
     padding-top: 21px;
 }
 
@@ -109,12 +109,12 @@
     color: #000000;
 }
 
-.male_field{
+.male-field{
     display: flex;
     padding-top: 32px;
 }
 
-.field_button{
+.field-button{
     border: 1px solid #FF6A6A;
     background-color: white;
     font-size: 14px;
@@ -125,7 +125,7 @@
     
 } 
 
-.field_button--join{
+.field-button-join{
     color:#FF6A6A ;
     width: 100%;
     height: 100%;
@@ -155,28 +155,28 @@
 
     .registration{
 
-        &_name{
+        &-name{
             font-size: 24px;
             line-height: 29px;
             color: #F16D7F;
             padding: 59px 558px 60px 16px;
         }
     
-        &_content{
+        &-content{
             display: flex;
             
         }
-        &_field{
+        &-field{
             padding: 17px;
             flex-grow: 1;
         }
     
-        &_stocks{
+        &-stocks{
             padding: 23px;
             flex-grow: 1;
         }
     
-        &_stocks--text{
+        &-stocks-text{
             max-width: 670px;
         }
     
@@ -192,7 +192,7 @@
 
     .registration{
 
-        &_name{
+        &-name{
             font-size: 24px;
             line-height: 29px;
             color: #F16D7F;
@@ -201,33 +201,33 @@
             padding-top: 60px;
         }
     
-        &_content{
+        &-content{
             display: flex;
             
         }
         
     
-        &_stocks{
+        &-stocks{
             margin: 0;
             padding: 0 9px 100px 9px;
         }
     
-        &_stocks--text{
+        &-stocks-text{
             max-width: 670px;
         }
 
-        &_content{
+        &-content{
             display: flex;
             flex-direction: column;
         }
 
-        &_field--button{
+        &-field-button{
             padding: 0;
             padding-top: 39px;
               
         }
 
-        &_stocks--header{
+        &-stocks-header{
             font-weight: 300;
             font-size: 24px;
             line-height: 29px;
@@ -236,7 +236,7 @@
             padding-top: 40px;
         }
         
-        &_field{
+        &-field{
             padding-left: 9px;
            padding-right: 30px;
             
@@ -259,7 +259,7 @@
             color: #000000;
         }
 
-        .footer_button{
+        .footer-button{
             margin: 0;
             margin-bottom: 30px;
             

@@ -28,7 +28,7 @@ function myFunction() {
 
 
 window.onclick = function (event) {
-    if (!event.target.matches('.header_burger')) {
+    if (!event.target.matches('.header-burger')) {
 
         var dropdowns = document.getElementsByClassName("header-content");
         var i;

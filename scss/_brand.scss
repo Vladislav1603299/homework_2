@@ -5,19 +5,20 @@
 }
 
 .fdhdg{
-    margin-top: 20px;
+    margin-top: 20px ;
+    
 }
 
 .brand {
 
-&__title {
+&-title {
     font-size: 48px;
     font-weight: 900;
     line-height: 58px;
     text-transform: uppercase;
 }
 
-&__title-wrapper {
+&-title-wrapper {
     padding: 0 0 0 91px;
     flex-grow: 1;
     background-color: var(--pink);
@@ -25,7 +26,7 @@
     align-items: center;
 }
 
-&__subtitle {
+&-subtitle {
     display: block;
 
     font-size: 37px;
@@ -33,7 +34,7 @@
     line-height: 44px;
 }
 
-&__subtitle-pink {
+&-subtitle-pink {
     color: var(--dark-pink);
 }
 

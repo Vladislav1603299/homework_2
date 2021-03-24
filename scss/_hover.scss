@@ -3,9 +3,9 @@ button:hover{
 }
 
 button:hover .product-wrapper-overlay,
-button:hover .products_add{
-display: block;
-
+button:hover .products-add{
+    
+    display: block;
 }
 
 
@@ -15,16 +15,16 @@ display: block;
 
 
 
-.advantages_button:hover{
+.advantages-button:hover{
     background-color: #F16D7F;
     box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
 }
 
-.advantages_button:hover .button_text{
+.advantages-button:hover .button-text{
     color: lavender;
 }
 
-.field_button:hover{
+.field-button:hover{
     background-color: #F16D7F;
     box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
     color: white;
@@ -35,76 +35,86 @@ display: block;
     border-color: red;
 }
 
-.field_button--join:hover{
+.field-button-join:hover{
     color: white;
 }
 
-.submit_email:hover{
+.submit-email:hover{
     background-color: #6d7af1;
     color: #F1E4E6;
 
 }
 
-.adressshop_field:hover{
+.adressshop-field:hover{
     border-color: red;
 }
 
-.card_button1:hover{
+.card-button1:hover{
     background-color: #F16D7F;
     border-radius:15px;
 }
 
-.card_button2:hover{
+.card-button2:hover{
     background-color: #F16D7F;
     border-radius:15px;
     color: white;
 }
 
 
-.card_button2:hover{
+.card-button2:hover{
 
-    .card_button--join{
+    .card-button-join{
     color: white;
 }
 }
 
-.card_button1:hover{
+.card-button1:hover{
 
-    .card_button--join{
+    .card-button-join{
     color: white;
 }
 }
 
 
-.adressshop_buttom:hover{
+.adressshop-buttom:hover{
     background-color: #F16D7F;
 }
 
-.adressshop_buttom:hover{
+.adressshop-buttom:hover{
 
-    .adressshop_buttom-get{
+    .adressshop-buttom-get{
         color: white;
     }
 }
 
-.priceend_button:hover{
+.priceend-button:hover{
     background-color: #F16D7F ;
     border-radius:15px;
 }
 
-.priceend_button:hover{
-    .priceend_button--proceed{
+.priceend-button:hover{
+    .priceend-button--proceed{
     color: white;
     }
 }
 
 
-.cards_1:hover{
+.cards-1:hover{
     box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
 }
 
-.cards_2:hover{
+.cards-2:hover{
     box-shadow: 5px 20px 50px rgba(177, 16, 137, 0.2);
 }
+
+.products-add:hover{
+    border-color: #F16D7F;
+}
+
+.header-burger:hover{
+    box-shadow: 5px 20px 50px rgba(69, 6, 241, 0.2) !important;
+    border: 1px solid #F16D7F !important;
+}
+
 
 
