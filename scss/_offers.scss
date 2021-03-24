@@ -3,13 +3,13 @@
 
 
 
-&__list {
+&-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-&__item {
+&-item {
     color: white;
     width: 360px;
     min-height: 260px;
@@ -22,7 +22,7 @@
 
 
 
-&_text1{
+&-text1{
     font-weight: 300;
     font-size: 13.972px;
     line-height: 17px;
@@ -32,7 +32,7 @@
     padding-top: 16px;
 }
 
-&_text2{
+&-text2{
     font-weight: 300;
     font-size: 13.972px;
     line-height: 17px;
@@ -42,7 +42,7 @@
     padding-top: 16px;
 }
 
-&_text3{
+&-text3{
     font-weight: 300;
     font-size: 13.972px;
     line-height: 17px;
@@ -52,19 +52,19 @@
     padding-top: 16px;
 }
 
-&__item--woman {
+&-item-woman {
     background-image: url(../img/35.jpg);
 }
 
-&__item--man {
+&-item-man {
     background-image: url(../img/37.jpg);
 }
 
-&__item--kds{
+&-item-kds{
     background-image: url(../img/38.jpg);
 }
 
-&__item--accesories {
+&-item-accesories {
     background-image: url(../img/36.jpg);
     width: 100%;
     margin: 0;
@@ -74,7 +74,7 @@
 }
 
 
-  .container_text{
+  .container-text{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -82,7 +82,7 @@
 
 }
 
-.container_women{
+.container-women{
     font-size: 25px;
     line-height: 22px;
     text-align: center;

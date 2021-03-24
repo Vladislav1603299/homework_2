@@ -4,14 +4,14 @@
 
 .products{
 
-&_featured{
+&-featured{
     text-align: center;
     font-size: 30px;
     line-height: 36px;
     color: #222222;
 }
 
-&_shop{
+&-shop{
     text-align: center;
     font-size: 14px;
     line-height: 17px;
@@ -19,7 +19,7 @@
     margin-top: 6px;
 }
 
-&_photo{
+&-photo{
     max-width: 1140px;
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@
     
 }
 
-&_background{
+&-background{
     background: #F8F8F8;
     margin-top: 30px;
     position: relative;
@@ -41,7 +41,7 @@
 .product{
 
 
-&_name{
+&-name{
     font-size: 13px;
     line-height: 16px;
     color: #000000;
@@ -49,7 +49,7 @@
     padding-left: 18px;
 }
 
-&_text{
+&-text{
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
@@ -59,7 +59,7 @@
     padding-left: 18px;
 }
 
-&_price{
+&-price{
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
@@ -72,13 +72,13 @@
 
 
 
-.button_text{
+.button-text{
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
 }
 
-.advantages_button{
+.advantages-button{
     min-width: 211px;
     min-height: 47px;
     border: 1px solid #FF6A6A;
@@ -103,7 +103,7 @@
     display: none;
 }
 
-.products_add{
+.products-add{
     background-image: url(../img/telega.svg);
     background-repeat: no-repeat;
     background-position: left;
@@ -123,6 +123,51 @@
     box-sizing: border-box;
     display: none;
 }
+
+.product-page-name{
+    background: #F8F3F4;
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.product-way{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.product-arrivals{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    
+}
+
+.product-name-arrivals{
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding-right: 700px;
+
+}
+
+.product-new-arrivals{
+    background-color: #F8F3F4;
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 
 
 
